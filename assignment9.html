@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background: linear-gradient(90deg,blue,purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            height: 80%;
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+        }
+        
+        .email,.password,.login{
+           height: 22.5%;
+           width: 90%;
+           margin: auto;
+        }
+        input{
+            margin-top: 3%;
+            height: 50%;
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid gray;
+            background-color: lightgray;
+            text-align: center;
+        }
+        .email,.password,.login{
+        
+        h1{
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+        login>p{
+            margin-top: 5%;
+        }
+        .password>p{
+            margin-top: 3%;
+            color: grey;
+            font-style: oblique;
+        }
+        #login{
+            color: white;
+            background: linear-gradient(90deg,blue,purple);
+        }
+        a{
+            text-decoration: none;
+            font-style: italic;
+            color: rgb(24, 151, 201);
+        }
+    }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">Login Form</h1>
+        <div class="email">
+            <label for="">Email or Phone</label>
+            <input type="text" placeholder="Enter Email or Phone">
+        </div>
+        <div class="password">
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter Password">
+            <p>Forget Password</p>
+        </div>
+        <div class="login">
+            <input type="button" value="LOGIN" id="login">
+            <p align="center">Not a Member ?<a href="assignment10.html">Sign Up</a></p>
+        </div>
+    </form>
+</body>
+</html>
